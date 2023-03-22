@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-knex-postgres-docker-setup",
+  "version": "1.0.0",
+  "description": "Module based nodejs express setup with postgreSQL database",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amatyamilan/nodejs-knex-postgreSQL-setup.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "postgreSQL",
+    "knex"
+  ],
+  "author": "Milan Amatya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amatyamilan/nodejs-knex-postgreSQL-setup/issues"
+  },
+  "homepage": "https://github.com/amatyamilan/nodejs-knex-postgreSQL-setup#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "helmet": "^6.0.1",
+    "knex": "^2.4.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21"
+  }
+}
