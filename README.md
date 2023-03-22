@@ -1,4 +1,4 @@
-# copy .env.examplt to .env in root of you directory
+# copy .env.example to .env in root of you directory
 ```
 setup the env as required
 ```
